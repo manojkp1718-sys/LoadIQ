@@ -1,0 +1,69 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/application-local.properties
+
+# Java / Maven
+**/target/
+*.class
+*.jar
+*.war
+
+# Node / Vite
+**/node_modules/
+**/dist/
+**/.vite/
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Local databases and backups
+*.db
+*.sqlite
+*.sqlite3
+*.sql.bak
+
+# Temporary files
+*.tmp
+*.temp
+# Never upload database exports
+*.sql
+
+# Never upload project ZIP backups
+*.zip
+
+# Railway local configuration
+.railway/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+# Database files and exports
+*.sql
+*.zip
+
+# Local database backups
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+
+# Railway configuration
+.railway/
+backend/.vscode/
